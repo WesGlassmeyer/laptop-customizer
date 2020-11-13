@@ -19,7 +19,7 @@ export default class FeatureList extends Component {
 
     return (
       <section className="main_form">
-        <h3>TECH SPECS AND CUSTOMIZATIONS</h3>
+        <h3>Customize your laptop</h3>
         {features}
       </section>
     );

@@ -3,9 +3,9 @@
 }
 
 header {
-  background-color: #dddddd;
-  padding: 20px;
-  height: 25%;
+  background-color: #252525d2;
+  color: #fff;
+  padding: 2rem;
 }
 
 main {
@@ -13,4 +13,11 @@ main {
   flex-direction: row;
   height: 75%;
   padding: 15px;
+}
+
+header > h1,
+main {
+  width: 95%;
+  max-width: 120rem;
+  margin: 0 auto;
 }
